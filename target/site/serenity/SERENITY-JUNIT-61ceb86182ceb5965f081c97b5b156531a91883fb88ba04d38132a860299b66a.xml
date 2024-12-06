@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><testsuite errors="3" failures="0" name="Visa checks" skipped="0" tests="3" time="58.68" timestamp="2024-04-27 03:28:02"><testcase name="check visa Australia &amp; Columbian"><error message="WebDriver was unable to create a new instance of type class org.openqa.selenium.chrome.ChromeDriver&#10;WebDriver reported the following message: Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 119&#10;Current browser version is 124.0.6367.91 with binary path /Applications/Google Chrome.app/Contents/MacOS/Google Chrome &#10;Host info: host: '192.168.1.150', ip: '2a01:4b00:f449:7a00:99f0:6e1e:2a1b:57bc%en0'&#10;Build info: version: '4.14.1', revision: '03f8ede370'&#10;System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.1', java.version: '11.0.21'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: true, browserName: chrome, goog:chromeOptions: {args: [test-type, ignore-certificate-errors, headless, --window-size=1000,800, incognito, disable-infobars, disable-gpu, disable-default-apps, disable-popup-blocking, test-type, ignore-certificate-errors, headless, --window-size=1000,800, incognito, disable-infobars, disable-gpu, disable-default-apps, disable-popup-blocking, remote-allow-origins=*], binary: /Applications/Google Chrome..., extensions: []}}]}]&#10;See below for more details." type="net.thucydides.core.webdriver.DriverConfigurationError">WebDriver was unable to create a new instance of type class org.openqa.selenium.chrome.ChromeDriver
+WebDriver reported the following message: Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 119
+Current browser version is 124.0.6367.91 with binary path /Applications/Google Chrome.app/Contents/MacOS/Google Chrome 
+Host info: host: '192.168.1.150', ip: '2a01:4b00:f449:7a00:99f0:6e1e:2a1b:57bc%en0'
+Build info: version: '4.14.1', revision: '03f8ede370'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.1', java.version: '11.0.21'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: true, browserName: chrome, goog:chromeOptions: {args: [test-type, ignore-certificate-errors, headless, --window-size=1000,800, incognito, disable-infobars, disable-gpu, disable-default-apps, disable-popup-blocking, test-type, ignore-certificate-errors, headless, --window-size=1000,800, incognito, disable-infobars, disable-gpu, disable-default-apps, disable-popup-blocking, remote-allow-origins=*], binary: /Applications/Google Chrome..., extensions: []}}]}]
+See below for more details.</error><system-err>WebDriver was unable to create a new instance of type class org.openqa.selenium.chrome.ChromeDriver
+WebDriver reported the following message: Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 119
+Current browser version is 124.0.6367.91 with binary path /Applications/Google Chrome.app/Contents/MacOS/Google Chrome 
+Host info: host: '192.168.1.150', ip: '2a01:4b00:f449:7a00:99f0:6e1e:2a1b:57bc%en0'
+Build info: version: '4.14.1', revision: '03f8ede370'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.1', java.version: '11.0.21'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: true, browserName: chrome, goog:chromeOptions: {args: [test-type, ignore-certificate-errors, headless, --window-size=1000,800, incognito, disable-infobars, disable-gpu, disable-default-apps, disable-popup-blocking, test-type, ignore-certificate-errors, headless, --window-size=1000,800, incognito, disable-infobars, disable-gpu, disable-default-apps, disable-popup-blocking, remote-allow-origins=*], binary: /Applications/Google Chrome..., extensions: []}}]}]
+See below for more details.
+net.thucydides.core.webdriver.WebDriverFactory.newWebdriverInstance(WebDriverFactory.java:152)
+net.thucydides.core.webdriver.WebDriverFacade.newDriverInstance(WebDriverFacade.java:178)
+net.thucydides.core.webdriver.WebDriverFacade.newProxyDriver(WebDriverFacade.java:169)
+net.thucydides.core.webdriver.WebDriverFacade.getProxiedDriver(WebDriverFacade.java:120)
+net.thucydides.core.webdriver.WebDriverFacade.get(WebDriverFacade.java:209)
+ho.qat.seo.stepDefinitions.VisaConfirmationSteps.i_am_on_the_Check_UK_visa_website(VisaConfirmationSteps.java:21)
+io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
+io.cucumber.java.Invoker.invoke(Invoker.java:24)
+io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
+io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)
+io.cucumber.core.runner.TestStep.executeStep(TestStep.java:84)
+io.cucumber.core.runner.TestStep.run(TestStep.java:56)
+io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
+io.cucumber.core.runner.TestCase.run(TestCase.java:84)
+io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
+io.cucumber.junit.platform.engine.CucumberEngineExecutionContext.lambda$runTestCase$4(CucumberEngineExecutionContext.java:112)
+io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:137)
+io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:137)
+io.cucumber.junit.platform.engine.CucumberEngineExecutionContext.runTestCase(CucumberEngineExecutionContext.java:109)
+</system-err></testcase><testcase name="A Chilean coming to the UK for Work and plans on staying for longer than 6 months."><error message="WebDriver was unable to create a new instance of type class org.openqa.selenium.chrome.ChromeDriver&#10;WebDriver reported the following message: Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 119&#10;Current browser version is 124.0.6367.91 with binary path /Applications/Google Chrome.app/Contents/MacOS/Google Chrome &#10;Host info: host: '192.168.1.150', ip: '2a01:4b00:f449:7a00:99f0:6e1e:2a1b:57bc%en0'&#10;Build info: version: '4.14.1', revision: '03f8ede370'&#10;System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.1', java.version: '11.0.21'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: true, browserName: chrome, goog:chromeOptions: {args: [test-type, ignore-certificate-errors, headless, --window-size=1000,800, incognito, disable-infobars, disable-gpu, disable-default-apps, disable-popup-blocking, test-type, ignore-certificate-errors, headless, --window-size=1000,800, incognito, disable-infobars, disable-gpu, disable-default-apps, disable-popup-blocking, remote-allow-origins=*], binary: /Applications/Google Chrome..., extensions: []}}]}]&#10;See below for more details." type="net.thucydides.core.webdriver.DriverConfigurationError">WebDriver was unable to create a new instance of type class org.openqa.selenium.chrome.ChromeDriver
+WebDriver reported the following message: Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 119
+Current browser version is 124.0.6367.91 with binary path /Applications/Google Chrome.app/Contents/MacOS/Google Chrome 
+Host info: host: '192.168.1.150', ip: '2a01:4b00:f449:7a00:99f0:6e1e:2a1b:57bc%en0'
+Build info: version: '4.14.1', revision: '03f8ede370'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.1', java.version: '11.0.21'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: true, browserName: chrome, goog:chromeOptions: {args: [test-type, ignore-certificate-errors, headless, --window-size=1000,800, incognito, disable-infobars, disable-gpu, disable-default-apps, disable-popup-blocking, test-type, ignore-certificate-errors, headless, --window-size=1000,800, incognito, disable-infobars, disable-gpu, disable-default-apps, disable-popup-blocking, remote-allow-origins=*], binary: /Applications/Google Chrome..., extensions: []}}]}]
+See below for more details.</error><system-err>WebDriver was unable to create a new instance of type class org.openqa.selenium.chrome.ChromeDriver
+WebDriver reported the following message: Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 119
+Current browser version is 124.0.6367.91 with binary path /Applications/Google Chrome.app/Contents/MacOS/Google Chrome 
+Host info: host: '192.168.1.150', ip: '2a01:4b00:f449:7a00:99f0:6e1e:2a1b:57bc%en0'
+Build info: version: '4.14.1', revision: '03f8ede370'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.1', java.version: '11.0.21'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: true, browserName: chrome, goog:chromeOptions: {args: [test-type, ignore-certificate-errors, headless, --window-size=1000,800, incognito, disable-infobars, disable-gpu, disable-default-apps, disable-popup-blocking, test-type, ignore-certificate-errors, headless, --window-size=1000,800, incognito, disable-infobars, disable-gpu, disable-default-apps, disable-popup-blocking, remote-allow-origins=*], binary: /Applications/Google Chrome..., extensions: []}}]}]
+See below for more details.
+net.thucydides.core.webdriver.WebDriverFactory.newWebdriverInstance(WebDriverFactory.java:152)
+net.thucydides.core.webdriver.WebDriverFacade.newDriverInstance(WebDriverFacade.java:178)
+net.thucydides.core.webdriver.WebDriverFacade.newProxyDriver(WebDriverFacade.java:169)
+net.thucydides.core.webdriver.WebDriverFacade.getProxiedDriver(WebDriverFacade.java:120)
+net.thucydides.core.webdriver.WebDriverFacade.get(WebDriverFacade.java:209)
+ho.qat.seo.stepDefinitions.VisaConfirmationSteps.i_am_on_the_Check_UK_visa_website(VisaConfirmationSteps.java:21)
+io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
+io.cucumber.java.Invoker.invoke(Invoker.java:24)
+io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
+io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)
+io.cucumber.core.runner.TestStep.executeStep(TestStep.java:84)
+io.cucumber.core.runner.TestStep.run(TestStep.java:56)
+io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
+io.cucumber.core.runner.TestCase.run(TestCase.java:84)
+io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
+io.cucumber.junit.platform.engine.CucumberEngineExecutionContext.lambda$runTestCase$4(CucumberEngineExecutionContext.java:112)
+io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:137)
+io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:137)
+io.cucumber.junit.platform.engine.CucumberEngineExecutionContext.runTestCase(CucumberEngineExecutionContext.java:109)
+</system-err></testcase></testsuite>
