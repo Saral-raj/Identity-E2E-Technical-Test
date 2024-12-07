@@ -13,7 +13,7 @@ Before you begin, ensure you have met the following requirements:
 ## Getting Started
 
 1. Clone the repository:
-git clone git@gitlab.com:HOQAT/seo_technical_assessment_starter.git
+git clone https://github.com/Saral-raj/Identity-E2E-Technical-Test.git
 
 ## Project Structure
 src/main/java: Contains production source code.
