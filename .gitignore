@@ -1,0 +1,32 @@
+# Java-related files
+*.class
+*.jar
+*.war
+*.ear
+
+# Maven build files
+/target/
+
+# IntelliJ IDEA project files
+.idea/
+*.iml
+
+# Eclipse project files
+.project
+.classpath
+.settings/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Logs and temporary files
+*.log
+*.tmp
+
+# Dependency directories
+/node_modules/
+/out/
+
+# Test results
+/test-output/
